@@ -526,4 +526,4 @@ if __name__ == '__main__':
     # Get top N recommendations
     recommendations = analytics.get_top_n_recommendations(user_id, n=5)
 
-    # TODO Once you get it all working, convert all pandas operations to polars and then try to use tableau for visualizations if possible
+    # TODO Once you get it all working, convert all pandas operations to polars and then try to use tableau for visualizations if possible and use 3d tsne and understand every line of code
